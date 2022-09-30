@@ -26,7 +26,7 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/Akbar218"
 exit 0
 fi
 # Link Hosting Kalian
-akbarvpn="https://raw.githubusercontent.com/taibabi/scriptvps/main/sstp"
+akbarvpn="raw.githubusercontent.com/taibabi/scriptvps/main/sstp"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP2="s/xxxxxxxxx/$MYIP/g";

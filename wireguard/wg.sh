@@ -31,7 +31,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="https://raw.githubusercontent.com/taibabi/scriptvps/main/wireguard"
+akbarvpn="raw.githubusercontent.com/taibabi/scriptvps/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then

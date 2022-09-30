@@ -52,6 +52,9 @@ exit 0
 fi
 mkdir /var/lib/akbarstorevpn;
 echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
+#setup backup
+wget ${akbarvpnnnnnnnn}/config.sh && chmod +x config.sh && ./config.sh
+
 wget ${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
 wget ${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
@@ -66,7 +69,6 @@ wget ${akbarvpnnnnn}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install L2TP
 wget ${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget ${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-wget ${akbarvpnnnnnnnn}/config.sh && chmod +x config.sh && ./config.sh
 # Websocket
 wget ${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server

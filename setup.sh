@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="gitlab.com/manssizz/scriptvps/-/raw/main/ssh"
+akbarvpn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="gitlab.com/manssizz/scriptvps/-/raw/main/sstp"
+akbarvpnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="gitlab.com/manssizz/scriptvps/-/raw/main/ssr"
+akbarvpnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/shadowsocks"
+akbarvpnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/wireguard"
+akbarvpnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/xray"
+akbarvpnnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/ipsec"
+akbarvpnnnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/backup"
+akbarvpnnnnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/websocket"
+akbarvpnnnnnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/ohp"
+akbarvpnnnnnnnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);

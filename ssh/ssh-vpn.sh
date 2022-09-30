@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="gitlab.com/manssizz/scriptvps/-/raw/main/ssh"
+akbarvpn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="gitlab.com/manssizz/scriptvps/-/raw/main/xray"
+akbarvpnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="gitlab.com/manssizz/scriptvps/-/raw/main/trojango"
+akbarvpnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="gitlab.com/manssizz/scriptvps/-/raw/main/stunnel5"
+akbarvpnnnn="https://raw.githubusercontent.com/taibabi/scriptvps/main/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive

@@ -28,7 +28,7 @@ fi
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="gitlab.com/manssizz/scriptvps/-/raw/main/ssh"
+akbarvpn="https://raw.githubusercontent.com/taibabi/scriptvps/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

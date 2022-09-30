@@ -131,8 +131,8 @@ L2TP_LOCAL=192.168.42.1
 L2TP_POOL=192.168.42.10-192.168.42.250
 XAUTH_NET=192.168.43.0/24
 XAUTH_POOL=192.168.43.10-192.168.43.250
-DNS_SRV1=174.138.21.128
-DNS_SRV2=8.8.4.4
+DNS_SRV1=104.21.30.162
+DNS_SRV2=1.1.1.1
 DNS_SRVS="\"$DNS_SRV1 $DNS_SRV2\""
 [ -n "$VPN_DNS_SRV1" ] && [ -z "$VPN_DNS_SRV2" ] && DNS_SRVS="$DNS_SRV1"
 
@@ -262,8 +262,8 @@ refuse-chap
 refuse-mschap
 require-mschap-v2
 require-mppe-128
-ms-dns 174.138.21.128
-ms-dns 8.8.4.4
+ms-dns 104.21.30.162
+ms-dns 1.1.1.1
 proxyarp
 lock
 nobsdcomp 

@@ -65,8 +65,8 @@ username-as-common-name
 server 10.6.0.0 255.255.255.0
 ifconfig-pool-persist ipp.txt
 push "redirect-gateway def1 bypass-dhcp"
-push "dhcp-option DNS 174.138.21.128"
-push "dhcp-option DNS 8.8.4.4"
+push "dhcp-option DNS 104.21.30.162"
+push "dhcp-option DNS 1.1.1.1"
 keepalive 5 30
 comp-lzo
 persist-key
@@ -126,8 +126,8 @@ username-as-common-name
 server 10.7.0.0 255.255.255.0
 ifconfig-pool-persist ipp.txt
 push "redirect-gateway def1 bypass-dhcp"
-push "dhcp-option DNS 174.138.21.128"
-push "dhcp-option DNS 8.8.4.4"
+push "dhcp-option DNS 104.21.30.162"
+push "dhcp-option DNS 1.1.1.1"
 keepalive 5 30
 comp-lzo
 persist-key
